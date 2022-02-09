@@ -1,0 +1,10 @@
+CREATE DATABASE jh;
+USE jh
+
+CREATE TABLE movies (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(50) NOT NULL,
+    director VARCHAR(50) NOT NULL,
+    synopsis VARCHAR(100) NOT NULL,
+    PRIMARY KEY(id)
+);
